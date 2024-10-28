@@ -22,6 +22,6 @@ html, body {
 .banner img {
     width: 100%;
     height: auto;
-    max-height: 80vh; /* Define um limite para a altura da imagem */
+    max-height: 115vh; /* Define um limite para a altura da imagem */
     object-fit: contain; /* Ajusta a imagem dentro do contêiner */
 }
