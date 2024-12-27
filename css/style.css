@@ -24,4 +24,9 @@ html, body {
     height: auto;
     max-height: 115vh; /* Define um limite para a altura da imagem */
     object-fit: contain; /* Ajusta a imagem dentro do contêiner */
+    transition: transform 0.4s ease; /* Adiciona a transição para o efeito de hover */
+}
+
+.banner img:hover {
+    transform: scale(1.04); /* Aplica o efeito de zoom sem sombreamento */
 }
